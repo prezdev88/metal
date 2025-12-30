@@ -9,6 +9,6 @@ services:
     volumes:
       - ~/postgresql-metal-data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=123123
-      - POSTGRES_USER=admin
-      - POSTGRES_DB=metal_db
+      - POSTGRES_PASSWORD=metal
+      - POSTGRES_USER=metal
+      - POSTGRES_DB=metal
